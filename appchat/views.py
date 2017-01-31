@@ -58,3 +58,4 @@ def generate_response(msg):
 	keywords = {
 	    'help' : 'This is the help message. To use this chatbot, the list of commands'
 	}	
+	return "Welcome to the coding blocks"
