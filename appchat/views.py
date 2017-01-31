@@ -55,4 +55,6 @@ def reply_to_message(user_id,message):
 	print status.json()
 
 def generate_response(msg):
-	return "this is nakul's resp"	
+	keywords = {
+	    'help' : 'This is the help message. To use this chatbot, the list of commands'
+	}	
