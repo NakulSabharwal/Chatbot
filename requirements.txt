@@ -4,4 +4,5 @@ requests
 gunicorn
 whitenoise
 bs4
+google
 psycopg2
