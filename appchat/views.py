@@ -10,6 +10,8 @@ from django.views.decorators.csrf import csrf_exempt
 import requests
 import json
 
+from google_it import GoogleIt
+
 
 #  Token Generated at FB EAAQqs1NbBEUBAIFw4S6k9udvHPxJKSMRrIFsCgQUt9CwEn84EuTfjKN17crolj7AfD2BZCiBjgOornxYDYqYLdckylXRQxwhBxEhcKRkrGQzxGld3RrvApWyzIZCvgchtHrpYoqJXg0kJpmhgqr5JLBOU75jP6I5wQvRuTLgZDZD
 
@@ -58,4 +60,4 @@ def generate_response(msg):
 	keywords = {
 	    'help' : 'This is the help message. To use this chatbot, the list of commands'
 	}	
-	return "Welcome to the coding blocks"
+	return GoogleIt(msg)
